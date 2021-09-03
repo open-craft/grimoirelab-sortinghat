@@ -22,6 +22,7 @@
 from .add import Add
 from .affiliate import Affiliate
 from .autogender import AutoGender
+from .autobot import AutoBot
 from .autoprofile import AutoProfile
 from .blacklist import Blacklist
 from .config import Config
@@ -46,6 +47,7 @@ SORTINGHAT_COMMANDS = {
                        'affiliate': Affiliate,
                        'autogender': AutoGender,
                        'autoprofile': AutoProfile,
+                       'autobot': AutoBot,
                        'blacklist': Blacklist,
                        'config': Config,
                        'countries': Countries,
